@@ -1,0 +1,11 @@
+python -m venv venv
+source venv/bin/activate
+pip --version
+pip install mkdocs-material
+
+mkdocs new .
+mkdocs serve
+
+go to mkdocs.yml and type the following : 
+theme:
+  name: material
