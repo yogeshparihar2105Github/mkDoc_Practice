@@ -6,32 +6,6 @@ pip install mkdocs-material
 mkdocs new .
 mkdocs serve
 
-go to mkdocs.yml and type the following : 
-site_name: MkDocs Practice
-site_url: https://kushmanda.tech/
-theme:
-  name: material
-  features:
-    - navigation.tabs
-    - navigation.sections
-    - toc.integrate
-    - navigation.top
-    - search.suggest
-    - search.highlight
-    - content.tabs.link
-    - content.code.annotation
-    - content.code.copy
-  language: en
-  palette:
-    - scheme: default
-      toggle:
-        icon: material/toggle-switch-off-outline 
-        name: Switch to dark mode
-      primary: teal
-      accent: purple 
-    - scheme: slate 
-      toggle:
-        icon: material/toggle-switch
-        name: Switch to light mode    
-      primary: teal
-      accent: lime
+go to my github and copy the index.md and mkdocs.yml files:
+https://github.com/yogeshparihar2105Github/mkDoc_Practice/blob/main/docs/index.md 
+
