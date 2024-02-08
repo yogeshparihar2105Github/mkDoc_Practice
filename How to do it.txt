@@ -1,8 +1,11 @@
+install python from the python website, then open the terminal and run the following command
+
 python -m venv venv
 source venv/bin/activate
 pip --version
 pip install mkdocs-material
 
+Then open the vsCode and run the following command 
 mkdocs new .
 mkdocs serve
 
